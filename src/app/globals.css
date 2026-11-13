@@ -27,6 +27,9 @@ h1,h2{text-wrap:balance}
 /* header */
 .hd{position:sticky;top:0;z-index:50;background:var(--ink);color:#fff}
 .hd-in{display:flex;align-items:center;justify-content:space-between;gap:var(--s3);min-height:64px}
+.bw{display:flex;align-items:center;gap:var(--s2)}
+.homebtn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border:1px solid #3a352d;color:#c9c2b0}
+.homebtn:hover{color:var(--ink);background:var(--yellow);border-color:var(--yellow)}
 .brand{font-weight:800;font-size:15px;letter-spacing:.09em;white-space:nowrap}
 .toggle{display:flex;font-size:14px}
 .toggle a{padding:8px 16px;border:1px solid #3a352d;margin-left:-1px;color:#c9c2b0;min-height:36px;display:flex;align-items:center}
@@ -142,3 +145,6 @@ html[lang="de"] .wl a{--tagw:12em}
 main{flex:1 0 auto}
 .ft{flex-shrink:0}
 @media (min-width:768px){html[lang="de"] .jtag{max-width:26em;text-wrap:balance}}
+
+html[lang="ko"] .about{max-width:none}
+html[lang="ko"] .about p{white-space:pre-line;word-break:keep-all}

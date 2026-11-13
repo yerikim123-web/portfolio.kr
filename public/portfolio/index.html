@@ -246,6 +246,9 @@ html[lang="ko"] .f-links .nko{display:none}
 #yk-bar .in{max-width:1112px;margin:0 auto;padding:10px 24px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
 #yk-bar a{color:inherit;text-decoration:none}
 #yk-bar .b{font-weight:800;letter-spacing:.09em;font-size:15px}
+#yk-bar .bw{display:flex;align-items:center;gap:10px}
+#yk-bar .hb{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border:1px solid #3a352d;color:#c9c2b0}
+#yk-bar .hb:hover{background:#FFC738;border-color:#FFC738;color:#15120E}
 #yk-bar .t{display:flex}
 #yk-bar .t a{padding:8px 16px;border:1px solid #3a352d;margin-left:-1px;color:#c9c2b0;min-height:36px;display:flex;align-items:center}
 #yk-bar .t a:hover{color:#fff}
@@ -254,8 +257,8 @@ html[lang="ko"] .f-links .nko{display:none}
 @media (max-width:767px){#yk-bar .t{order:3;width:100%}#yk-bar .t a{flex:1;justify-content:center;min-height:44px}}
 </style></head>
 <body>
-<div id="yk-bar"><div class="in"><a class="b" href="/home/">YERI KIM</a><nav class="t" aria-label="Switch"><a href="/portfolio/" aria-current="page" id="yk-p">업무 포트폴리오</a><a href="/journal/" id="yk-j">저널</a></nav></div></div>
-<script>(function(){var L={ko:['업무 포트폴리오','저널'],en:['Portfolio','Journal'],de:['Portfolio','Journal']};function s(){var l=document.documentElement.lang||'ko';l=L[l]?l:'ko';document.getElementById('yk-p').textContent=L[l][0];document.getElementById('yk-j').textContent=L[l][1]}s();new MutationObserver(s).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});window.addEventListener('langchange',s)})();</script>
+<div id="yk-bar"><div class="in"><span class="bw"><a class="b" href="/home/">YERI KIM</a><a class="hb" id="yk-h" href="/home/" aria-label="홈" title="홈"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5M5.5 10v10h4.5v-5.5h4V20h4.5V10"/></svg></a></span><nav class="t" aria-label="Switch"><a href="/portfolio/" aria-current="page" id="yk-p">업무 포트폴리오</a><a href="/journal/" id="yk-j">저널</a></nav></div></div>
+<script>(function(){var L={ko:['업무 포트폴리오','저널','홈'],en:['Portfolio','Journal','Home'],de:['Portfolio','Journal','Startseite']};function s(){var l=document.documentElement.lang||'ko';l=L[l]?l:'ko';document.getElementById('yk-p').textContent=L[l][0];document.getElementById('yk-j').textContent=L[l][1];var h=document.getElementById('yk-h');h.setAttribute('aria-label',L[l][2]);h.title=L[l][2]}s();new MutationObserver(s).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});window.addEventListener('langchange',s)})();</script>
 <nav class="top"><div class="nav-in"><a class="brand" href="#top"><i></i>Portfolio</a>
 <div class="links"><a data-i="5" href="#profile">프로필</a><a data-i="6" href="#activities">활동 내역</a><a data-i="7" href="#career">유관 경험</a><a data-i="8" href="#contact">연락처</a></div><div class="lsw" role="group" aria-label="Language"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><ellipse cx="12" cy="12" rx="4" ry="9.5"/><path d="M2.5 12h19M4.5 7h15M4.5 17h15"/></svg><button type="button" data-l="ko" lang="ko">KO</button><button type="button" data-l="en" lang="en">EN</button><button type="button" data-l="de" lang="de">DE</button></div></div></nav>
 <header class="hero" id="top"><div class="wrap"><div class="hero-grid">
