@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "Yeri Kim | Portfolio",
+    "journalTitle": "Yeri Kim | Writing & Works",
+    "description": "The portfolio and writing of Yeri Kim, performing arts and content planner."
+  },
+  "brand": "YERI KIM",
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "journal": "Journal",
+    "perspectives": "Perspectives",
+    "publicHistory": "Public History",
+    "archive": "Archive",
+    "main": "Switch",
+    "journalMenu": "Journal menu"
+  },
+  "home": {
+    "line": "This site brings together my professional experience in the performing arts and cultural content, alongside my writing on theatre, history, and memory, presented in two distinct spaces.",
+    "portfolioDesc": "Performing arts and content planner, marketer",
+    "journalDesc": "Writing on theatre, history, and the ways we remember.",
+    "title": "The Work I Do, The Stories I Tell"
+  },
+  "journal": {
+    "eyebrow": "THEATRE · HISTORY · MEMORY",
+    "title": "Writing & Works",
+    "archive": "Archive",
+    "viewAll": "View all writing",
+    "emptyHome": "No writing has been published yet.",
+    "about": "About",
+    "main": "Through writing on theatre and work in Public History,\nI explore the stories on stage and the contexts beyond them."
+  },
+  "perspectives": {
+    "title": "Perspectives",
+    "intro": "From impressions of performances to the questions they raise, a collection of thoughts and writing on the stage.",
+    "short": "Writing, reflections, and perspectives on performance",
+    "empty": "No writing has been published yet.",
+    "cta": "Browse writing"
+  },
+  "publicHistory": {
+    "title": "Public History",
+    "short": "Work exploring how history is communicated and remembered",
+    "desc": "Public History explores how the past is communicated, interpreted, and experienced beyond academia. Its practices span museums and exhibitions, journalism, digital media, performance, and other public settings. This section brings together work focusing particularly on documentary theatre and historical drama, and on how performance represents the past and shapes collective memory.",
+    "projects": "Projects",
+    "empty": "Projects are coming soon.",
+    "cta": "Browse work"
+  },
+  "archive": {
+    "title": "Archive",
+    "search": "Search writing",
+    "placeholder": "Search titles or content",
+    "none": "No results found.",
+    "empty": "No writing has been published yet.",
+    "prev": "Previous",
+    "next": "Next",
+    "all": "All",
+    "clear": "Clear",
+    "count": "Articles",
+    "perPage": "{n} per page",
+    "submit": "Search",
+    "read": "Read"
+  },
+  "aboutText": [
+    "The process of bringing a story to the stage, and the contexts behind it, are at the heart of this work. It follows the thoughts and choices of the people who create performances, as well as the stories and questions that emerge on stage, documenting and interpreting them through writing.",
+    "This interest also extends to history and memory. Through studies in Public History in Germany, the focus turns to how performance represents the past and shapes collective memory. Particular attention is given to why some histories are retold on stage while others remain outside it, and to stories that have been documented but not remembered."
+  ],
+  "footer": {
+    "contact": "Contact"
+  },
+  "country": {
+    "DE": "Germany",
+    "KR": "South Korea",
+    "NL": "Netherlands",
+    "CH": "Switzerland"
+  },
+  "type": {
+    "review": "Review",
+    "interview": "Interview"
+  }
+}

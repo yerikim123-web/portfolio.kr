@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "Yeri Kim | Portfolio",
+    "journalTitle": "Yeri Kim | Texte & Arbeiten",
+    "description": "Portfolio und Texte von Yeri Kim, Konzeption und Marketing für Darstellende Künste."
+  },
+  "brand": "YERI KIM",
+  "nav": {
+    "home": "Startseite",
+    "portfolio": "Portfolio",
+    "journal": "Journal",
+    "perspectives": "Perspektiven",
+    "publicHistory": "Public History",
+    "archive": "Archiv",
+    "main": "Wechseln",
+    "journalMenu": "Journal-Menü"
+  },
+  "home": {
+    "line": "Diese Website vereint meine beruflichen Erfahrungen im Bereich der darstellenden Künste und Kulturinhalte mit meinen Texten über Theater, Geschichte und Erinnerung – aufgeteilt in zwei eigenständige Bereiche.",
+    "portfolioDesc": "Konzeption und Marketing für Darstellende Künste und Content",
+    "journalDesc": "Texte über Theater, Geschichte und die Art, wie wir uns erinnern.",
+    "title": "Meine Arbeit, meine Perspektiven"
+  },
+  "journal": {
+    "eyebrow": "THEATRE · HISTORY · MEMORY",
+    "title": "Texte & Arbeiten",
+    "archive": "Archiv",
+    "viewAll": "Alle Texte ansehen",
+    "emptyHome": "Es wurden noch keine Texte veröffentlicht.",
+    "about": "Über mich",
+    "main": "In Texten über Theater und Arbeiten zur Public History\nbeschäftige ich mich mit den Geschichten auf der Bühne und den Zusammenhängen, die darüber hinausreichen."
+  },
+  "perspectives": {
+    "title": "Perspektiven",
+    "intro": "Von Eindrücken aus Aufführungen bis zu den Fragen, die sie aufwerfen: Gedanken und Texte rund um die Bühne.",
+    "short": "Texte, Reflexionen und Perspektiven auf Aufführungen",
+    "empty": "Es wurden noch keine Texte veröffentlicht.",
+    "cta": "Texte ansehen"
+  },
+  "publicHistory": {
+    "title": "Public History",
+    "short": "Arbeiten darüber, wie Geschichte vermittelt und erinnert wird",
+    "desc": "Public History beschäftigt sich damit, wie Geschichte außerhalb der Wissenschaft vermittelt, interpretiert und erfahren wird. Das Fach umfasst unter anderem Museen und Ausstellungen, Journalismus, digitale Medien und darstellende Kunst. Dieser Bereich versammelt Arbeiten, die sich insbesondere mit dokumentarischem Theater und historischen Theaterstücken sowie mit der Darstellung von Vergangenheit und der Prägung kollektiver Erinnerung durch Aufführungen befassen.",
+    "projects": "Projekte",
+    "empty": "Projekte folgen in Kürze.",
+    "cta": "Arbeiten ansehen"
+  },
+  "archive": {
+    "title": "Archiv",
+    "search": "Texte durchsuchen",
+    "placeholder": "Titel oder Inhalte suchen",
+    "none": "Keine Ergebnisse gefunden.",
+    "empty": "Es wurden noch keine Texte veröffentlicht.",
+    "prev": "Zurück",
+    "next": "Weiter",
+    "all": "Alle",
+    "clear": "Zurücksetzen",
+    "count": "Texte",
+    "perPage": "{n} pro Seite",
+    "submit": "Suchen",
+    "read": "Lesen"
+  },
+  "aboutText": [
+    "Im Mittelpunkt steht das Interesse daran, wie eine Geschichte auf die Bühne gelangt und welche Zusammenhänge dahinterstehen. Die Texte beschäftigen sich mit den Gedanken und Entscheidungen der Menschen, die Aufführungen gestalten, sowie mit den Geschichten und Fragen, die auf der Bühne sichtbar werden. Sie halten diese Beobachtungen fest und setzen sich mit ihnen auseinander.",
+    "Dieses Interesse erstreckt sich auch auf Geschichte und Erinnerung. Im Rahmen eines Public-History-Studiums in Deutschland geht es darum, wie Theater Vergangenheit darstellt und kollektive Erinnerung prägt. Im Zentrum steht dabei die Frage, warum manche historischen Geschichten auf der Bühne neu erzählt werden, während andere außerhalb des Scheinwerferlichts bleiben – insbesondere jene, die zwar dokumentiert, aber nicht erinnert wurden."
+  ],
+  "footer": {
+    "contact": "Kontakt"
+  },
+  "country": {
+    "DE": "Deutschland",
+    "KR": "Südkorea",
+    "NL": "Niederlande",
+    "CH": "Schweiz"
+  },
+  "type": {
+    "review": "Rezension",
+    "interview": "Interview"
+  }
+}

@@ -1,0 +1,442 @@
+[
+ {
+  "id": "428",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "1년에 단 하루, 사물들의 축제!",
+   "en": "One Day a Year, Just for Objects!",
+   "de": "Ein Tag im Jahr gehört den 'Dingen'!"
+  },
+  "performance": "Theater der Dinge",
+  "venue": "Schaubude Berlin 외",
+  "country": "DE",
+  "venueT": {
+   "en": "Schaubude Berlin and others",
+   "de": "Schaubude Berlin u. a."
+  },
+  "type": "review"
+ },
+ {
+  "id": "415",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "그럼에도 살아있는 것은 아름다운가",
+   "en": "Is There Beauty in Survival, Despite It All?",
+   "de": "Ist das Überleben trotz allem schön?"
+  },
+  "performance": "The Copenhagen Trilogy",
+  "venue": null,
+  "country": "NL",
+  "type": "review"
+ },
+ {
+  "id": "402",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "찻잔과 레몬이 살아나는 세계, 신맛이라도 유쾌하게!",
+   "en": "A World Where Teacups and Lemons Come Alive",
+   "de": "Eine Welt, in der Teetassen und Zitronen lebendig werden"
+  },
+  "performance": "Nach Zitrone schmeckt die Welt",
+  "venue": "FITZ Center for Puppetry Arts",
+  "country": "DE",
+  "type": "interview"
+ },
+ {
+  "id": "395",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "1-1=0이 되지 않는 세계에서 부재(不在)를 마주하는 일",
+   "en": "Living in a World Where 1 − 1 ≠ 0",
+   "de": "Leben in einer Welt, in der 1 − 1 ≠ 0"
+  },
+  "performance": "빈자리 없음",
+  "venue": "두산아트센터",
+  "country": "KR",
+  "type": "interview",
+  "performanceT": {
+   "en": "No empty seats",
+   "de": "No empty seats"
+  },
+  "venueT": {
+   "en": "DOOSAN ART CENTER",
+   "de": "DOOSAN ART CENTER"
+  }
+ },
+ {
+  "id": "394",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "최애(Liebling)를 향한 핑크빛 파르스",
+   "en": "The Unvarnished Face of Commercialized Feminism",
+   "de": "Ein blutiger Büro-Schwank um den Liebling"
+  },
+  "performance": "Der Liebling",
+  "venue": "Schauspielhaus Bochum",
+  "country": "DE",
+  "type": "review",
+  "performanceT": {
+   "en": "The Favorite"
+  }
+ },
+ {
+  "id": "393",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "속도를 상실한 시대, 썩어가는 '독일의 심장'",
+   "en": "Germany's Decaying Heart",
+   "de": "Eine Ära, die ihr Tempo verloren hat: Das verrottende „Deutschlandherz“"
+  },
+  "performance": "DAS DEUTSCHLANDHerz",
+  "venue": "Schauspiel Frankfurt",
+  "country": "DE",
+  "type": "review",
+  "performanceT": {
+   "ko": "Das Deutschland Herz",
+   "en": "The German Heart",
+   "de": "Das Deutschland Herz"
+  }
+ },
+ {
+  "id": "392",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en"
+  ],
+  "titles": {
+   "ko": "소크라테스가 건넨 질문, 객석이 품은 패러독스 │ EP 2.",
+   "en": "Socrates’ Questions, Our Paradoxes┃EP.2"
+  },
+  "performance": null,
+  "venue": null,
+  "country": null,
+  "type": "interview"
+ },
+ {
+  "id": "391",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en"
+  ],
+  "titles": {
+   "ko": "소크라테스가 건넨 질문, 객석이 품은 패러독스 │ EP 1.",
+   "en": "Socrates’ Questions, Our Paradoxes┃EP.1"
+  },
+  "performance": null,
+  "venue": null,
+  "country": null,
+  "type": "interview"
+ },
+ {
+  "id": "389",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "환상적인 이야기와 사랑의 승리를 노래하는 이유",
+   "en": "Why We Sing of Fantastical Stories and Love's Triumph",
+   "de": "Warum wir von Fantasie und vom Sieg der Liebe singen"
+  },
+  "performance": "겨울왕국",
+  "venue": "샤롯데씨어터",
+  "country": "KR",
+  "type": "review",
+  "performanceT": {
+   "en": "Frozen",
+   "de": "Die Eiskönigin"
+  },
+  "venueT": {
+   "en": "Charlotte Theater",
+   "de": "Charlotte Theater"
+  }
+ },
+ {
+  "id": "386",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en"
+  ],
+  "titles": {
+   "ko": "국경을 넘나드는 '공연 덕후'들의 수다 - 히어위아 씨어터 클럽(HTC)을 만나다",
+   "en": "Cross-Border Chatter Among \"Theater Nerds\" — Meeting the HereWeAre Theater Club (HTC)"
+  },
+  "performance": null,
+  "venue": null,
+  "country": null,
+  "type": "interview"
+ },
+ {
+  "id": "383",
+  "category": "public-history",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "신화의 해체, 기억의 무대",
+   "en": "Deconstructing the Myth, Staging Memory",
+   "de": "Der Zerfall des Mythos, die Bühne der Erinnerung"
+  },
+  "performance": "엘리자벳",
+  "venue": "Blue Square",
+  "country": "KR",
+  "type": "review",
+  "performanceT": {
+   "en": "Elisabeth",
+   "de": "Elisabeth"
+  }
+ },
+ {
+  "id": "381",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "거짓말 안의 유토피아, 그 속에서 서로를 기어이 발견하기까지",
+   "en": "A Utopia Built on a Lie",
+   "de": "Eine Utopie aus einer Lügen"
+  },
+  "performance": "디어 에반 핸슨",
+  "venue": "충무아트센터",
+  "country": "KR",
+  "type": "review",
+  "performanceT": {
+   "en": "Dear Evan Hansen",
+   "de": "Dear Evan Hansen"
+  },
+  "venueT": {
+   "en": "Chungmu Arts Center",
+   "de": "Chungmu Arts Center"
+  }
+ },
+ {
+  "id": "377",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "낡아가는 몸과 지워진 시간 위로 '다시(更)' 쓰는 생존 — DAC Artist 본주 인터뷰",
+   "en": "Write to Survive, Again: Over an Aging Body and Erased Time",
+   "de": "Schreiben, um zu überleben"
+  },
+  "performance": "갱更",
+  "venue": "두산아트센터",
+  "country": "KR",
+  "type": "interview",
+  "venueT": {
+   "en": "DOOSAN ART CENTER",
+   "de": "DOOSAN ART CENTER"
+  },
+  "performanceT": {
+   "en": "Aging, Again",
+   "de": "Aging, Again"
+  }
+ },
+ {
+  "id": "375",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "자본의 식탁 위, 구역질을 삼키며 묻는 인간다움 — DAC Artist 본주 신작 연극 〈갱更〉",
+   "en": "Records of Survival Written by Imperfect Bodies",
+   "de": "Aufzeichnungen des Überlebens, geschrieben von unvollkommenen Körpern"
+  },
+  "performance": "갱更",
+  "venue": "두산아트센터",
+  "country": "KR",
+  "type": "review",
+  "venueT": {
+   "en": "DOOSAN ART CENTER",
+   "de": "DOOSAN ART CENTER"
+  },
+  "performanceT": {
+   "en": "Aging, Again",
+   "de": "Aging, Again"
+  }
+ },
+ {
+  "id": "374",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "무대는 전세계! 랜선으로 이어진 우리: 히어위아 씨어터 클럽 온라인 밋업",
+   "en": "The Stage Is the Whole World! Connected by a Digital Line: HereWeAre Theater Club Online Meetup",
+   "de": "Die Bühne gehört der ganzen Welt! Verbunden durch das Netz: Here We Are Theatre Club Online-Meetup"
+  },
+  "performance": null,
+  "venue": null,
+  "country": null,
+  "type": "interview"
+ },
+ {
+  "id": "370",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en"
+  ],
+  "titles": {
+   "ko": "무대 위 활자를 짓는 사람들: 읽고, 보고, 마침내 쓰는 관객들",
+   "en": "Those Who Build Words Upon the Stage: Audiences Who Read, Watch, and Eventually Write"
+  },
+  "performance": null,
+  "venue": null,
+  "country": null,
+  "type": "interview"
+ },
+ {
+  "id": "277",
+  "category": "public-history",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "히스토리 리믹스(History Remix) : 뮤지컬 <식스>가 묻고 답하는 역사 콘텐츠",
+   "en": "History Remix: What SIX Reveals About the Power of Public History",
+   "de": "History Remix: Was das Musical SIX über die Kraft der Public History erzählt"
+  },
+  "performance": "SIX",
+  "venue": "Capitol Theater, Düsseldorf",
+  "country": "DE",
+  "type": "review"
+ },
+ {
+  "id": "237",
+  "category": "public-history",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "실러의 삶으로 알아보는 파격적 페르소나: 억압된 현실은 어떻게 무대 위의 자유가 되었나",
+   "en": "Schiller’s Life and the Formation of the Destructive Persona: How a Life of Oppression Becomes Freedom on Stage",
+   "de": "Schillers Leben und die Entstehung der destruktiven Persona: Wie ein Leben unter Unterdrückung zur Freiheit auf der Bühne wird"
+  },
+  "performance": "Die Räuber",
+  "venue": "Schauspielhaus Bochum",
+  "country": "DE",
+  "type": "review"
+ },
+ {
+  "id": "184",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "파괴된 질서 속 진정한 반란을 묻다",
+   "en": "Questioning True Rebellion in a World of Ruined Order",
+   "de": "Die Frage nach wahrem Aufstand in einer Welt zerstörter Ordnung"
+  },
+  "performance": "Die Räuber",
+  "venue": "Schauspielhaus Bochum",
+  "country": "DE",
+  "type": "review"
+ },
+ {
+  "id": "154",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "연극 <K.>: 부조리를 웃음으로 승화한 카프카의 재발견",
+   "en": "K. : Kafka Rediscovered Through Laughter of Absurdity",
+   "de": "K. : Kafka neu entdeckt durch das Lachen des Absurden"
+  },
+  "performance": "K.",
+  "venue": "Theater Mari",
+  "country": "DE",
+  "type": "review"
+ },
+ {
+  "id": "132",
+  "category": "perspectives",
+  "langs": [
+   "ko",
+   "en",
+   "de"
+  ],
+  "titles": {
+   "ko": "세상이 사라지기 시작할 때",
+   "en": "When a World Begins to Fade"
+  },
+  "performance": "Il Gattopardo",
+  "venue": "Schauspielhaus Zürich",
+  "country": "CH",
+  "type": "review"
+ },
+ {
+  "id": "93",
+  "category": "perspectives",
+  "langs": [
+   "en"
+  ],
+  "titles": {
+   "ko": "내 세계를 깎아 만들어낸 하모니",
+   "en": "Harmony Accomplished by Carving Out My Own World: A Review of <LIEBE / Eine argumentative Übung>"
+  },
+  "performance": "LIEBE / EINE ARGUMENTATIVE ÜBUNG",
+  "venue": "FWT",
+  "country": "DE",
+  "type": "review"
+ }
+]
