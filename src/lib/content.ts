@@ -22,7 +22,7 @@ export type Writing = {
   country?: string;   // ISO 국가 코드 (DE, KR, NL, CH)
 };
 
-type Raw = { id: string; category: Category; langs: string[]; titles: Partial<Record<Locale, string>>; performance: string | null; venue: string | null; performanceT?: Partial<Record<Locale, string>>; venueT?: Partial<Record<Locale, string>>; country?: string | null; type?: 'review' | 'interview' };
+type Raw = { id: string; category: Category; langs: string[]; titles: Partial<Record<Locale, string>>; performance: string | null; venue: string | null; performanceT?: Partial<Record<Locale, string>>; venueT?: Partial<Record<Locale, string>>; linkLang?: Partial<Record<Locale, Locale>>; country?: string | null; type?: 'review' | 'interview' };
 const PARAM: Record<Locale, string> = { ko: 'kr', en: 'en', de: 'de' };
 const BASE = 'https://internationaltheatredatabase.com/article/';
 
@@ -32,9 +32,9 @@ export function getWritings(lang: Locale): Writing[] {
     .filter((r) => r.langs.includes(lang))
     .map((r) => ({
       id: r.id,
-      title: r.titles[lang] ?? r.titles.ko ?? '',
+      title: r.titles[lang] ?? (lang === 'de' ? r.titles.en : undefined) ?? r.titles.ko ?? '',
       category: r.category,
-      url: `${BASE}${r.id}?lang=${PARAM[lang]}`,
+      url: `${BASE}${r.id}?lang=${PARAM[r.linkLang?.[lang] ?? lang]}`,
       language: lang,
       type: r.type,
       country: r.country ?? undefined,

@@ -132,7 +132,8 @@
   "category": "perspectives",
   "langs": [
    "ko",
-   "en"
+   "en",
+   "de"
   ],
   "titles": {
    "ko": "소크라테스가 건넨 질문, 객석이 품은 패러독스 │ EP 2.",
@@ -141,14 +142,18 @@
   "performance": null,
   "venue": null,
   "country": null,
-  "type": "interview"
+  "type": "interview",
+  "linkLang": {
+   "de": "en"
+  }
  },
  {
   "id": "391",
   "category": "perspectives",
   "langs": [
    "ko",
-   "en"
+   "en",
+   "de"
   ],
   "titles": {
    "ko": "소크라테스가 건넨 질문, 객석이 품은 패러독스 │ EP 1.",
@@ -157,7 +162,10 @@
   "performance": null,
   "venue": null,
   "country": null,
-  "type": "interview"
+  "type": "interview",
+  "linkLang": {
+   "de": "en"
+  }
  },
  {
   "id": "389",
@@ -190,7 +198,8 @@
   "category": "perspectives",
   "langs": [
    "ko",
-   "en"
+   "en",
+   "de"
   ],
   "titles": {
    "ko": "국경을 넘나드는 '공연 덕후'들의 수다 - 히어위아 씨어터 클럽(HTC)을 만나다",
@@ -199,7 +208,10 @@
   "performance": null,
   "venue": null,
   "country": null,
-  "type": "interview"
+  "type": "interview",
+  "linkLang": {
+   "de": "en"
+  }
  },
  {
   "id": "383",
@@ -324,7 +336,8 @@
   "category": "perspectives",
   "langs": [
    "ko",
-   "en"
+   "en",
+   "de"
   ],
   "titles": {
    "ko": "무대 위 활자를 짓는 사람들: 읽고, 보고, 마침내 쓰는 관객들",
@@ -333,7 +346,10 @@
   "performance": null,
   "venue": null,
   "country": null,
-  "type": "interview"
+  "type": "interview",
+  "linkLang": {
+   "de": "en"
+  }
  },
  {
   "id": "277",
@@ -422,13 +438,17 @@
   "performance": "Il Gattopardo",
   "venue": "Schauspielhaus Zürich",
   "country": "CH",
-  "type": "review"
+  "type": "review",
+  "linkLang": {
+   "de": "en"
+  }
  },
  {
   "id": "93",
   "category": "perspectives",
   "langs": [
-   "en"
+   "en",
+   "de"
   ],
   "titles": {
    "ko": "내 세계를 깎아 만들어낸 하모니",
@@ -437,6 +457,9 @@
   "performance": "LIEBE / EINE ARGUMENTATIVE ÜBUNG",
   "venue": "FWT",
   "country": "DE",
-  "type": "review"
+  "type": "review",
+  "linkLang": {
+   "de": "en"
+  }
  }
 ]
