@@ -41,7 +41,7 @@ export function getWritings(lang: Locale): Writing[] {
       language: lang,
       type: r.type,
       country: r.country ?? undefined,
-      source: r.metaT?.[lang] ?? [r.performanceT?.[lang] ?? r.performance, r.venueT?.[lang] ?? r.venue].filter(Boolean).join(' · ') || undefined,
+      source: r.metaT?.[lang] ?? ([r.performanceT?.[lang] ?? r.performance, r.venueT?.[lang] ?? r.venue].filter(Boolean).join(' · ') || undefined),
     }));
 }
 /* Journal 홈 미리보기 3개. 지정한 글을 먼저 쓰고, 해당 언어로 없는 글은 다음 최신 글로 채운다. */
