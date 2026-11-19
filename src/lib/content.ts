@@ -18,11 +18,12 @@ export type Writing = {
   performance?: string;
   venue?: string;
   source?: string;
-  type?: 'review' | 'interview';
+  type?: 'review' | 'interview' | 'thesis';
+  abstract?: { text: string; keywords?: string };  // 있으면 링크 대신 펼쳐보기 목록 항목
   country?: string;   // ISO 국가 코드 (DE, KR, NL, CH)
 };
 
-type Raw = { id: string; category: Category; langs: string[]; titles: Partial<Record<Locale, string>>; performance: string | null; venue: string | null; performanceT?: Partial<Record<Locale, string>>; venueT?: Partial<Record<Locale, string>>; linkLang?: Partial<Record<Locale, Locale>>; country?: string | null; type?: 'review' | 'interview' };
+type Raw = { id: string; category: Category; langs: string[]; titles: Partial<Record<Locale, string>>; performance: string | null; venue: string | null; performanceT?: Partial<Record<Locale, string>>; venueT?: Partial<Record<Locale, string>>; linkLang?: Partial<Record<Locale, Locale>>; country?: string | null; type?: 'review' | 'interview' | 'thesis'; abstract?: Partial<Record<Locale, { text: string; keywords?: string }>>; metaT?: Partial<Record<Locale, string>> };
 const PARAM: Record<Locale, string> = { ko: 'kr', en: 'en', de: 'de' };
 const BASE = 'https://internationaltheatredatabase.com/article/';
 
@@ -34,11 +35,13 @@ export function getWritings(lang: Locale): Writing[] {
       id: r.id,
       title: r.titles[lang] ?? (lang === 'de' ? r.titles.en : undefined) ?? r.titles.ko ?? '',
       category: r.category,
-      url: `${BASE}${r.id}?lang=${PARAM[r.linkLang?.[lang] ?? lang]}`,
+      url: r.abstract ? undefined : `${BASE}${r.id}?lang=${PARAM[r.linkLang?.[lang] ?? lang]}`,
+      abstract: r.abstract?.[lang],
+      body: r.abstract?.[lang]?.text,
       language: lang,
       type: r.type,
       country: r.country ?? undefined,
-      source: [r.performanceT?.[lang] ?? r.performance, r.venueT?.[lang] ?? r.venue].filter(Boolean).join(' · ') || undefined,
+      source: r.metaT?.[lang] ?? [r.performanceT?.[lang] ?? r.performance, r.venueT?.[lang] ?? r.venue].filter(Boolean).join(' · ') || undefined,
     }));
 }
 /* Journal 홈 미리보기 3개. 지정한 글을 먼저 쓰고, 해당 언어로 없는 글은 다음 최신 글로 채운다. */

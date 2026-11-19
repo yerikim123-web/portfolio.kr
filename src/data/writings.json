@@ -482,5 +482,42 @@
     "linkLang": {
       "de": "en"
     }
+  },
+  {
+    "id": "0",
+    "category": "perspectives",
+    "langs": [
+      "ko",
+      "en",
+      "de"
+    ],
+    "type": "thesis",
+    "performance": null,
+    "venue": null,
+    "country": null,
+    "titles": {
+      "ko": "역사 콘텐츠의 소비와 활용 – 한국 창작 역사 뮤지컬의 흥행 사례를 중심으로",
+      "en": "The Consumption and Application of Historical Content: Successful Cases of Korean Original Historical Musicals",
+      "de": "Die Rezeption und Nutzung historischer Inhalte: Eine Untersuchung erfolgreicher südkoreanischer Originalmusicals mit historischen Stoffen"
+    },
+    "abstract": {
+      "ko": {
+        "text": "본 연구는 한국 창작 역사 뮤지컬을 중심으로 역사적 소재가 현대 공연예술에서 콘텐츠로 소비되고 활용되는 방식과 그 흥행 요인을 분석한다. 이를 위해 한국 창작 뮤지컬의 발전 과정과 역사 뮤지컬의 전개 양상을 살펴보고, 작품의 소재와 서사 구성 방식에 나타나는 특징을 검토하였다. 작품은 한국사와 세계사를 배경으로 한 경우로 나누고, 실제 인물과 사건 및 가공의 인물을 활용한 사례를 비교하였다. 또한 역사 소재의 대중성, 인물이나 사건의 역사적 성과, 소재의 예술적 활용 가능성을 콘텐츠의 주요 요소로 살펴보았다.\n\n분석 결과, 인물 중심의 작품은 생애의 전환점과 비극적 경험을 강조하는 경향이 있으며, 사건 중심의 작품은 역사적 사건의 의미를 관객이 이해하고 공감할 수 있도록 재구성하는 양상을 보인다. 『영웅』과 『명성황후』 등 대표적인 흥행 사례를 통해 역사적 사실의 선택과 예술적 변용, 감정적 몰입을 유도하는 서사 전략이 역사 콘텐츠의 대중적 수용과 긴밀하게 연결됨을 논의하였다. 역사 뮤지컬은 과거를 단순히 재현하는 데 그치지 않고 창작자의 해석을 통해 역사적 인물과 사건을 현재의 관객에게 전달한다. 따라서 역사적 가치에 대한 책임 있는 접근과 예술적 재구성의 균형은 역사 콘텐츠의 지속적인 발전을 위해 중요하다. 본 연구는 공연예술을 역사 활용과 대중적 역사 인식의 장으로 이해하고, 향후 역사 소재 공연 콘텐츠의 기획과 연구를 위한 기초적 분석 관점을 제시한다.",
+        "keywords": "역사 콘텐츠, 한국 창작 역사 뮤지컬, 역사 재현, 서사 구성, 예술적 변용, 공연예술"
+      },
+      "en": {
+        "text": "This study examines how historical subjects are adapted, consumed, and used as cultural content in contemporary Korean musical theatre, with particular attention to the factors contributing to the commercial success of original historical musicals. It traces the development of original Korean musicals and the emergence of historical musicals, analysing their subject matter and narrative structures. The works are classified according to whether they address Korean or world history and whether they draw on historical figures, events, or fictional characters. The analysis also considers popular appeal, the historical significance of the subjects, and their potential for artistic adaptation as key factors in the creation of historical content.\n\nThe study identifies a tendency for character-centred musicals to foreground turning points and tragic experiences in individual lives, while event-centred works reshape historical events into narratives accessible to contemporary audiences. Through commercially successful productions such as Hero and The Last Empress, it discusses how the selection of historical material, artistic transformation, and strategies of emotional engagement contribute to audience reception. Historical musicals do more than reproduce the past: through creative interpretation, they mediate historical figures and events for present-day audiences. Balancing artistic freedom with a responsible approach to historical significance is therefore essential to the development of historical content. By examining musical theatre as a medium through which history is represented and publicly encountered, this study offers an analytical starting point for future research and the development of history-based performance.",
+        "keywords": "historical content, original Korean historical musicals, historical representation, narrative structure, artistic adaptation, musical theatre"
+      },
+      "de": {
+        "text": "Die vorliegende Arbeit untersucht, wie historische Stoffe im zeitgenössischen südkoreanischen Musicaltheater als kulturelle Inhalte aufbereitet, rezipiert und genutzt werden. Im Mittelpunkt stehen dabei die Faktoren, die zum kommerziellen Erfolg eigenständig entwickelter historischer Musicals beitragen. Hierzu werden die Entwicklung des südkoreanischen Originalmusicals sowie die Entstehung und Ausprägung historischer Musicals nachgezeichnet. Anschließend werden die Stoffauswahl und die Erzählstrukturen der Werke analysiert. Unterschieden wird zwischen Stoffen aus der koreanischen Geschichte und der Weltgeschichte sowie zwischen Darstellungen historischer Persönlichkeiten, tatsächlicher Ereignisse und fiktiver Figuren. Als wesentliche Faktoren werden außerdem die Publikumswirksamkeit, die historische Bedeutung der Stoffe und ihr Potenzial zur künstlerischen Gestaltung betrachtet.\n\nDie Analyse zeigt, dass personenbezogene Musicals häufig biografische Wendepunkte und tragische Erfahrungen hervorheben, während ereignisbezogene Werke historische Geschehnisse in für ein heutiges Publikum zugängliche Erzählungen überführen. Anhand erfolgreicher Produktionen wie Hero und The Last Empress wird erörtert, wie die Auswahl historischer Inhalte, ihre künstlerische Umgestaltung und die emotionale Einbindung des Publikums zur Rezeption beitragen. Historische Musicals beschränken sich nicht auf die Wiedergabe der Vergangenheit, sondern vermitteln historische Personen und Ereignisse durch schöpferische Interpretation an ein gegenwärtiges Publikum. Für die Weiterentwicklung historischer Inhalte ist daher ein ausgewogenes Verhältnis zwischen künstlerischer Freiheit und einem verantwortungsvollen Umgang mit historischer Bedeutung entscheidend. Die Arbeit versteht das Musicaltheater als einen Ort öffentlicher Geschichtsvermittlung und bietet einen analytischen Ausgangspunkt für weitere Forschung und die Entwicklung historisch orientierter Bühnenproduktionen.",
+        "keywords": "historische Inhalte, südkoreanische Originalmusicals, Geschichtsrepräsentation, Dramaturgie, künstlerische Bearbeitung, Musicaltheater"
+      }
+    },
+    "metaT": {
+      "ko": "2022.06 · 논문 · 학사학위논문 · 한국외국어대학교 인문대학 사학과",
+      "en": "2022.06 · Academic Paper · Bachelor's Thesis · Hankuk University of Foreign Studies, College of Humanities, Department of History",
+      "de": "2022.06 · Wissenschaftliche Arbeit · Bachelorarbeit · Hankuk University of Foreign Studies, Fakultät für Geisteswissenschaften, Fachbereich Geschichte"
+    }
   }
 ]

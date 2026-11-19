@@ -75,6 +75,12 @@
   },
   "type": {
     "review": "Review",
-    "interview": "Interview"
+    "interview": "Interview",
+    "thesis": "Academic Paper"
+  },
+  "abs": {
+    "show": "Show abstract",
+    "hide": "Hide abstract",
+    "keywords": "Keywords"
   }
 }

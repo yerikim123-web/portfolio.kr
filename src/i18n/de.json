@@ -75,6 +75,12 @@
   },
   "type": {
     "review": "Rezension",
-    "interview": "Interview"
+    "interview": "Interview",
+    "thesis": "Wissenschaftliche Arbeit"
+  },
+  "abs": {
+    "show": "Zusammenfassung anzeigen",
+    "hide": "Zusammenfassung schließen",
+    "keywords": "Schlüsselwörter"
   }
 }
