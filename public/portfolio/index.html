@@ -343,8 +343,8 @@ html[lang="ko"] .f-links .nko{display:none}
 <li><b data-i="68">독일어</b><span data-i="69">고급 (듣기, 읽기, 쓰기, 말하기)</span></li>
 <li><b data-i="71">영어</b><span data-i="72">고급 (듣기, 읽기, 쓰기, 말하기)</span></li></ul></div>
 <div class="pcard reveal"><div class="plabel" data-i="74">연락처</div><ul class="contact">
-<li><b data-i="77"><i class="flag kr"></i>한국</b><span class="nko"><a href="tel:+821033109397">+82 10 3310 9397</a></span><span class="ko-only kp"><span class="kl"><a href="tel:+821033109397">010 3310 9397</a><em>카카오톡, 전화, 문자 가능</em></span></span></li>
-<li><b data-i="80"><i class="flag de"></i>독일</b><a href="tel:+491622425173">+49 162 2425173</a></li>
+<li><b data-i="77">한국</b><span class="nko"><a href="tel:+821033109397">+82 10 3310 9397</a></span><span class="ko-only kp"><span class="kl"><a href="tel:+821033109397">010 3310 9397</a></span></span></li>
+<li><b data-i="80">독일</b><a href="tel:+491622425173">+49 162 2425173</a></li>
 <li><b data-i="83">이메일</b><a href="mailto:yeri.kim.125@gmail.com">yeri.kim.125@gmail.com</a></li>
 <li><b>LinkedIn</b><a href="https://www.linkedin.com/in/yerikimkultur" rel="noopener" target="_blank">linkedin.com/in/yerikimkultur</a></li></ul></div>
 </div>
@@ -510,7 +510,7 @@ html[lang="ko"] .f-links .nko{display:none}
 <footer id="contact"><div class="wrap">
 <p class="f-eye">CONTACT</p>
 <h2 class="f-title" data-i="520">세계를 무대로 향하는<br/>여정을 기다립니다</h2>
-<div class="f-links"><a href="mailto:yeri.kim.125@gmail.com">yeri.kim.125@gmail.com</a><span class="nko"><a href="tel:+821033109397"><i class="flag kr"></i>+82 10 3310 9397</a></span><span class="ko-only kpf"><i class="flag kr"></i><span class="kcol"><span><a href="tel:+821033109397">010 3310 9397</a><em>카카오톡, 전화, 문자 가능</em></span></span></span><a href="tel:+491622425173"><i class="flag de"></i>+49 162 2425173</a><a href="https://www.linkedin.com/in/yerikimkultur" rel="noopener" target="_blank">LinkedIn</a></div>
+<div class="f-links"><a href="mailto:yeri.kim.125@gmail.com">yeri.kim.125@gmail.com</a><a href="tel:+821033109397">+82 10 3310 9397</a><a href="tel:+491622425173">+49 162 2425173</a><a href="https://www.linkedin.com/in/yerikimkultur" rel="noopener" target="_blank">LinkedIn</a></div>
 <p class="f-fine" data-i="527">© 2026 김예리</p>
 </div></footer>
 <script>
@@ -528,7 +528,7 @@ document.documentElement.classList.add('js');
   var LANGS=['ko','de','en'];
   var nodes=[].slice.call(document.querySelectorAll('[data-i]')), anodes=[].slice.call(document.querySelectorAll('[data-ib]'));
   nodes.forEach(function(el){ el._ko=el.innerHTML; });
-  anodes.forEach(function(el){ el._ko=el.getAttribute(el.getAttribute('data-ia')); });
+  anodes.forEach(function(el){ el._koA=el.getAttribute(el.getAttribute('data-ia')); });
   var desc=document.querySelector('meta[name="description"]');
   function apply(l){
     if(LANGS.indexOf(l)<0) l='ko';
@@ -538,7 +538,7 @@ document.documentElement.classList.add('js');
       if(v!==undefined) el.innerHTML=v;
     });
     anodes.forEach(function(el){
-      var a=el.getAttribute('data-ia'), v=(l==='ko')?el._ko:D.A[el.getAttribute('data-ib')][l];
+      var a=el.getAttribute('data-ia'), v=(l==='ko')?el._koA:D.A[el.getAttribute('data-ib')][l];
       if(v!==undefined) el.setAttribute(a,v);
     });
     root.lang=l; cur=l;
